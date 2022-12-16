@@ -12,12 +12,12 @@ function App() {
       {isAuthenticated ? (
         <div>
           <h1>Você está logado</h1>
-          <button onClick={() => setIsAuthenticated(false)}>Logout</button>
+          <button onClick={() => setIsAuthenticated(false)}>Deslogar</button>
         </div>
       ) : (
         <div>
           <h1>Você não está logado</h1>
-          <button onClick={() => setIsAuthenticated(true)}>Login</button>
+          <button onClick={() => setIsAuthenticated(true)}>Logar</button>
         </div>
       )}
     </div>
